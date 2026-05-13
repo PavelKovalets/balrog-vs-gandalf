@@ -27,7 +27,7 @@ Turn-based duel between Gandalf and Balrog on the Bridge of Khazad-dûm.
 3. Shield
    - Blocks next incoming attack only
 
-4. Light Blast
+4. Light
    - 50% chance to stun enemy (skip enemy turn)
 
 ## Enemy actions

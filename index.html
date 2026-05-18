@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gandalf vs Balrog — Bridge of Khazad-dûm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <header id="turn-indicator">Your turn</header>
+
+    <section id="combatants">
+      <div id="gandalf" class="combatant">
+        <div id="gandalf-portrait" class="portrait" aria-hidden="true">🧙</div>
+        <div class="name">Gandalf</div>
+        <div class="hp-bar"><div id="gandalf-hp-fill" class="hp-fill"></div></div>
+        <div id="gandalf-hp-text" class="hp-text">100 / 100</div>
+      </div>
+      <div class="vs">VS</div>
+      <div id="balrog" class="combatant">
+        <div id="balrog-portrait" class="portrait" aria-hidden="true">👹</div>
+        <div class="name">Balrog</div>
+        <div class="hp-bar"><div id="balrog-hp-fill" class="hp-fill"></div></div>
+        <div id="balrog-hp-text" class="hp-text">120 / 120</div>
+      </div>
+    </section>
+
+    <section id="actions">
+      <button id="btn-strike" type="button">Strike</button>
+      <button id="btn-fire" type="button">Fire Spell <small>(2-turn cooldown)</small></button>
+      <button id="btn-shield" type="button">Shield</button>
+      <button id="btn-light" type="button">Light</button>
+    </section>
+
+    <section id="log-section">
+      <h2>Battle Log</h2>
+      <ul id="battle-log" aria-live="polite"></ul>
+    </section>
+
+    <button id="btn-reset" type="button" hidden>New Battle</button>
+  </div>
+
+  <script src="game.js" defer></script>
+</body>
+</html>

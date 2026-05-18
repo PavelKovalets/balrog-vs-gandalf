@@ -16,8 +16,11 @@ Simple browser-based turn-based duel game (vanilla HTML/CSS/JS)
 - style.css → visuals + animations
 - game.js → game logic (state, actions, AI)
 
-## Gameplay rules
-See `SPEC.md` — it is the single source of truth for game design (stats, abilities, AI behavior, edge cases). Do not restate rules here; if a rule changes, update `SPEC.md`.
+## Where things live
+- `SPEC.md` — single source of truth for game design (stats, abilities, AI behavior, edge cases)
+- `ARCHITECTURE.md` — technical realization (file structure, DOM contract, CSS class hooks, timing, audio)
+
+Do not restate rules or contracts here. If a rule changes, update `SPEC.md`. If the DOM contract or implementation approach changes, update `ARCHITECTURE.md`.
 
 ## Development style
 - Prefer small diffs over large rewrites

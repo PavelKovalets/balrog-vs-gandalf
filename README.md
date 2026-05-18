@@ -22,7 +22,8 @@ When the fight ends, click **New Battle** to play again.
 - `index.html` — UI structure
 - `style.css` — Moria-themed visuals and animations
 - `game.js` — game logic, AI, and audio
-- `SPEC.md` — full gameplay spec
+- `SPEC.md` — game design (rules, stats, AI behavior)
+- `ARCHITECTURE.md` — technical realization (DOM contract, CSS hooks, audio, state)
 
 ## Built with
 - Vanilla HTML

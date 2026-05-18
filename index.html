@@ -12,14 +12,70 @@
 
     <section id="combatants">
       <div id="gandalf" class="combatant">
-        <div id="gandalf-portrait" class="portrait" aria-hidden="true">🧙</div>
+        <div id="gandalf-portrait" class="portrait" aria-hidden="true">
+          <svg class="char-svg" viewBox="0 0 110 175" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="staff-orb" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+                <stop offset="40%" stop-color="#fef9c3" stop-opacity="0.95"/>
+                <stop offset="100%" stop-color="#facc15" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <line x1="80" y1="30" x2="66" y2="168" stroke="#5b3414" stroke-width="3.5" stroke-linecap="round"/>
+            <circle cx="82" cy="27" r="13" fill="url(#staff-orb)"/>
+            <circle cx="82" cy="27" r="4" fill="#fffbea"/>
+            <path d="M 30 58 L 18 168 L 35 168 L 42 65 Z" fill="#475569"/>
+            <path d="M 36 60 L 26 168 L 72 168 L 64 60 Z" fill="#9ca3af"/>
+            <path d="M 50 62 L 46 168 L 52 168 Z" fill="#6b7280" opacity="0.55"/>
+            <rect x="32" y="108" width="38" height="5" fill="#1f2937"/>
+            <rect x="48" y="107" width="6" height="7" fill="#fbbf24"/>
+            <path d="M 58 68 Q 70 50 78 38 L 82 42 Q 74 54 64 76 Z" fill="#9ca3af"/>
+            <path d="M 38 45 Q 36 80 50 90 Q 64 80 62 45 Z" fill="#f5f5f4"/>
+            <path d="M 50 60 Q 48 82 50 90 Q 52 82 50 60 Z" fill="#d6d3d1" opacity="0.6"/>
+            <circle cx="50" cy="36" r="9" fill="#fde6c4"/>
+            <path d="M 41 33 Q 50 36 59 33 L 59 36 Q 50 39 41 36 Z" fill="#1f2937" opacity="0.4"/>
+            <ellipse cx="50" cy="30" rx="22" ry="4" fill="#1f2937"/>
+            <path d="M 35 28 Q 48 4 65 28 Z" fill="#334155"/>
+            <path d="M 38 27 Q 50 31 62 27 L 62 30 Q 50 33 38 30 Z" fill="#1f2937"/>
+          </svg>
+        </div>
         <div class="name">Gandalf</div>
         <div class="hp-bar"><div id="gandalf-hp-fill" class="hp-fill"></div></div>
         <div id="gandalf-hp-text" class="hp-text">100 / 100</div>
       </div>
       <div class="vs">VS</div>
       <div id="balrog" class="combatant">
-        <div id="balrog-portrait" class="portrait" aria-hidden="true">👹</div>
+        <div id="balrog-portrait" class="portrait" aria-hidden="true">
+          <svg class="char-svg" viewBox="0 0 110 175" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="balrog-inner" cx="50%" cy="40%" r="60%">
+                <stop offset="0%" stop-color="#fde047" stop-opacity="0.6"/>
+                <stop offset="40%" stop-color="#dc2626" stop-opacity="0.5"/>
+                <stop offset="100%" stop-color="#7f1d1d" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <path d="M 78 65 Q 100 50 100 100 Q 90 85 75 80 Z" fill="#1c1917"/>
+            <path d="M 32 65 Q 10 50 10 100 Q 20 85 35 80 Z" fill="#1c1917"/>
+            <path d="M 78 65 Q 92 70 95 95" stroke="#3f3f46" stroke-width="1.5" fill="none"/>
+            <path d="M 32 65 Q 18 70 15 95" stroke="#3f3f46" stroke-width="1.5" fill="none"/>
+            <path d="M 32 60 L 24 168 L 86 168 L 78 60 Q 70 50 55 50 Q 40 50 32 60 Z" fill="#0c0a09"/>
+            <ellipse cx="55" cy="105" rx="18" ry="40" fill="url(#balrog-inner)"/>
+            <path d="M 50 70 L 48 90 L 52 110 L 50 145" stroke="#ea580c" stroke-width="1.5" fill="none" opacity="0.75"/>
+            <path d="M 62 80 L 64 105 L 60 135" stroke="#dc2626" stroke-width="1.2" fill="none" opacity="0.65"/>
+            <path d="M 44 75 L 42 100 L 45 130" stroke="#dc2626" stroke-width="1.2" fill="none" opacity="0.65"/>
+            <ellipse cx="55" cy="42" rx="15" ry="13" fill="#0a0807"/>
+            <path d="M 42 34 L 30 10 L 46 28 Z" fill="#44403c"/>
+            <path d="M 68 34 L 80 10 L 64 28 Z" fill="#44403c"/>
+            <ellipse cx="48" cy="42" rx="2.5" ry="3" fill="#fb923c"/>
+            <ellipse cx="62" cy="42" rx="2.5" ry="3" fill="#fb923c"/>
+            <circle cx="48" cy="42" r="1" fill="#fef9c3"/>
+            <circle cx="62" cy="42" r="1" fill="#fef9c3"/>
+            <path d="M 47 50 Q 55 58 63 50 Q 60 54 55 54 Q 50 54 47 50 Z" fill="#fbbf24"/>
+            <path d="M 28 75 Q 8 95 2 150 Q 10 122 18 100 Q 22 88 30 80 Z" fill="#f97316" opacity="0.9"/>
+            <path d="M 26 80 Q 10 100 6 142 Q 14 118 20 100 Z" fill="#fbbf24" opacity="0.85"/>
+            <path d="M 25 88 Q 14 108 12 138 Q 18 122 22 108 Z" fill="#fef08a" opacity="0.7"/>
+          </svg>
+        </div>
         <div class="name">Balrog</div>
         <div class="hp-bar"><div id="balrog-hp-fill" class="hp-fill"></div></div>
         <div id="balrog-hp-text" class="hp-text">120 / 120</div>
